@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Food app</string>
+    <string name="hello_foodie">Hello Foodie</string>
+    <string name="get_free_delivery_always">Get Free Delivery Always</string>
+    <string name="find_the_dish">Find the Dish</string>
+    <string name="hello_aditya">Hello Aditya</string>
+    <string name="place_your_order">Place your order</string>
+</resources>
