@@ -10,6 +10,7 @@
         android:id="@+id/scrollbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="72dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -28,7 +29,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="34dp"
-                    android:layout_marginTop="32dp"
+                    android:layout_marginTop="20dp"
                     android:text="@string/hello_aditya"
                     android:textColor="#dd3d00"
                     android:textSize="26dp"
@@ -40,7 +41,7 @@
                     android:id="@+id/textView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="12dp"
                     android:text="@string/place_your_order"
                     android:textColor="#000000"
                     android:textSize="23sp"
@@ -52,7 +53,7 @@
                     android:id="@+id/imageView"
                     android:layout_width="126dp"
                     android:layout_height="95dp"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="2dp"
                     android:layout_marginEnd="44dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/textView4"
@@ -83,9 +84,9 @@
                     android:id="@+id/constraintLayout"
                     android:layout_width="match_parent"
                     android:layout_height="145dp"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
                     android:background="@drawable/orange_banner"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -165,7 +166,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="12dp"
                     android:text="Popular"
                     android:textColor="#FF5722"
                     android:textSize="17dp"
@@ -189,8 +190,9 @@
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        app:layout_constraintBottom_toBottomOf="@+id/scrollbar"
+        android:layout_height="65dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
@@ -199,10 +201,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:backgroundTint="#f6f6f6"
-            app:fabCradleMargin="8dp"
-            app:fabCradleRoundedCornerRadius="50dp"
-            app:fabCradleVerticalOffset="6dp">
+            android:backgroundTint="#D4F6F3"
+            app:fabAlignmentMode="center"
+            app:fabCradleMargin="12dp"
+            app:fabCradleRoundedCornerRadius="8dp"
+            app:fabCradleVerticalOffset="3dp"
+            app:hideOnScroll="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -223,7 +227,8 @@
                         android:text="Home"
                         android:textAlignment="center"
                         android:textColor="#676767"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imageView3"
@@ -248,7 +253,8 @@
                         android:text="Profile"
                         android:textAlignment="center"
                         android:textColor="#676767"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imageView4"
@@ -294,17 +300,19 @@
                         android:id="@+id/textView13"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingRight="20dp"
+                        android:paddingRight="10dp"
                         android:text="Support"
                         android:textAlignment="center"
                         android:textColor="#676767"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="54dp"
+                        android:layout_width="match_parent"
                         android:layout_height="41dp"
                         android:layout_weight="1"
+                        android:paddingRight="8dp"
                         app:srcCompat="@drawable/support" />
                 </LinearLayout>
 
@@ -319,10 +327,12 @@
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
                         android:text="Settings"
                         android:textAlignment="center"
                         android:textColor="#676767"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imageView7"
@@ -342,7 +352,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#E91E63"
-            android:elevation="2dp"
+            android:elevation="0dp"
             android:src="@drawable/shopping_cart"
             app:backgroundTint="#FF5722"
             app:layout_anchor="@id/app_bar"
