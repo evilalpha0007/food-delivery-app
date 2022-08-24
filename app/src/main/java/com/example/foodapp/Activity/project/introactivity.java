@@ -20,7 +20,7 @@ public class introactivity extends AppCompatActivity {
         startbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(introactivity.this, MainAct.class));
+                startActivity(new Intent(introactivity.this, mainAct.class));
             }
         });
     }

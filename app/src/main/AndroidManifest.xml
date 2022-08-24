@@ -14,7 +14,7 @@
         android:theme="@style/Theme.FoodApp"
         tools:targetApi="31" >
         <activity
-            android:name=".Activity.project.MainAct"
+            android:name=".Activity.project.mainAct"
             android:exported="false" />
         <activity
             android:name=".Activity.project.introactivity"

@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Foodapp/app/src/main/res/drawable/cat_background.xml" value="0.1695" />
+        <entry key="..\:/Foodapp/app/src/main/res/drawable/cat_background2.xml" value="0.1695" />
+        <entry key="..\:/Foodapp/app/src/main/res/drawable/cat_background3.xml" value="0.1695" />
+        <entry key="..\:/Foodapp/app/src/main/res/drawable/cat_background4.xml" value="0.1695" />
+        <entry key="..\:/Foodapp/app/src/main/res/drawable/cat_background5.xml" value="0.1695" />
         <entry key="..\:/Foodapp/app/src/main/res/drawable/orange_banner.xml" value="0.176" />
         <entry key="..\:/Foodapp/app/src/main/res/drawable/orange_button.xml" value="0.1135" />
         <entry key="..\:/Foodapp/app/src/main/res/drawable/search_background.xml" value="0.2355" />
         <entry key="..\:/Foodapp/app/src/main/res/layout/activity_introactivity.xml" value="0.20685383980181668" />
         <entry key="..\:/Foodapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Foodapp/app/src/main/res/layout/activity_mainn.xml" value="0.264" />
+        <entry key="..\:/Foodapp/app/src/main/res/layout/view_category.xml" value="0.264" />
       </map>
     </option>
   </component>
